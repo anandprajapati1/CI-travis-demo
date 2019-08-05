@@ -1,5 +1,7 @@
+"use strict";
+
 const app = function(){
-    return "Jane Doe";
+    return "Jane Doe"
 }
 
 console.log(app());
