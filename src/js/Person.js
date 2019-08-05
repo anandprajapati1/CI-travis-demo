@@ -1,3 +1,5 @@
+"use strict;"
+
 class Person {
     constructor(firstName = "Jane", lastName = "Doe") {
         this.firstName = firstName;
