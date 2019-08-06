@@ -4,7 +4,7 @@
   "description": "This repository is for validating code through running test cases on CI.",
   "main": "index.js",
   "scripts": {
-    "lint": "jshint src/**/*.js",
+    "lint": "jshint src/",
     "test": "jest",
     "start": "gulp watch",
     "build": "gulp build"
