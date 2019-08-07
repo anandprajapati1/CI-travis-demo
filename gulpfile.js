@@ -1,5 +1,7 @@
+"use strict";
+
 var gulp = require('gulp');
-// var fs = require('fs');
+var fs = require('fs');
 var browserify = require('browserify');
 var watchify = require('watchify');
 var babelify = require('babelify');
@@ -55,7 +57,7 @@ gulp.task('watch', ['build-persistent'], function() {
   });
 
   getBundler().on('update', function() {
-    gulp.start('build-persistent')
+    gulp.start('build-persistent');
   });
 });
 
